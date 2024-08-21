@@ -437,7 +437,7 @@ p {
   position: absolute;
   top: 0;
   width: 100px;
-  height: 100%;
+  height: min(100%, 48px);
   content: "";
   z-index: 2;
 }
